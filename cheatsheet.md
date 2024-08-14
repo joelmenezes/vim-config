@@ -11,3 +11,13 @@
 
 # Search
 `/<search-term>` : Search for something in file. `n` to go to next term. `N` to go to prev location.
+
+# Help
+`nmap` : Get all mappings in normal mode
+
+# Code 
+`K` : hover
+`<leader>gd`: Go to definition
+`<leader>gr`: Get references
+`<leader>ca`: Code action
+`<leader>rn`: Rename
