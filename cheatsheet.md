@@ -1,4 +1,12 @@
-# Navigation
+# TMUX
+## Panes
+`Ctrl + s` : Leader
+`Leader "` : split horizontally
+`Leader %` : Split vertically
+`Leader h/j/k/l`: Move to LDUR pane
+
+# Nvim
+## Navigation
 
 `gg` : Go to start of file
 `G` : Go to end of file
@@ -7,21 +15,21 @@
 `L` : Move cursor to end of page
 `<C-o>` : Navigate to prev location of cursor. Prev location will go to prev file too. 
 
-# Copy Paste
+## Copy Paste
 `"*y` : Copy to system clipboard
 `"*p` : Paste from system clipboard
 
-# Search
+## Search
 `/<search-term>` : Search for something in file. `n` to go to next term. `N` to go to prev location.
 `%s/<original>/<replace>/gc` : Replace original with replace value
 
-# Editing
+## Editing
 `D` : Delete from cursor to end of line
 
-# Help
+## Help
 `nmap` : Get all mappings in normal mode
 
-# Code 
+## Code 
 `K` : hover
 `<leader>gd`: Go to definition
 `<leader>gr`: Get references
